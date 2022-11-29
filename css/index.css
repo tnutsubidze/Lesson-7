@@ -1,0 +1,19 @@
+header{
+    width: 1440px;
+    background-color: #F6F8F9;
+}
+.header-div{
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 40px 17px 0;
+    font-size: 11px;
+}
+.logo{
+    padding: 20px 92px 17px 20px;
+}
