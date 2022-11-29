@@ -29,6 +29,7 @@ header{
 }
 .trending{
     width: 1160px;
+    background-color: bisque;
 }
 .trending-div{
     display: flex;
@@ -64,4 +65,14 @@ header{
 .time{
     width: 70px;
     display: flex;
+}
+.image-div{
+    display: flex;
+    justify-content: space-between;
+}
+.left-div-img{
+    margin-top: 40px;
+}
+.right-div-img{
+    margin: 102px 0 102px 0;
 }
