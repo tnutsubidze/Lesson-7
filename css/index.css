@@ -3,11 +3,18 @@ html{
 }
 header{
     width: 1440px;
+    height: 50px;
+    background-color: #F6F8F9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
 }
 .header-div{
     width: 490px;
     display: flex;
     justify-content: space-between;
+
 }
 .navigation{
     width: 280px;
@@ -27,7 +34,7 @@ header{
 .trending-section{
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 75px;
 }
 .trending{
     width: 1160px;
@@ -49,10 +56,21 @@ header{
     background-color: #FFFFFF;
     border-radius: 5px;
 }
+.trending-div1-top{
+    position: relative;
+    display: inline-flex;
+}
 .trending-div1-title{
     width: 280px;
     font-size: 16px;
     color: #fff;
+    position: absolute;
+    top: 28px;
+    left: 40px;
+}
+.text-position{
+    top: 194px;
+    left: 308px;
 }
 .trending-div1-bottom{
     display: flex;
